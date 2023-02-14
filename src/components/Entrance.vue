@@ -1,12 +1,19 @@
 <template>
   <div id="entrance">
-    asd
+    asdasdasdasdasd
   </div>
 </template>
 
 <script>
 export default {
   name:'TheEntrance',
+  data() {
+        return {
+        }
+    },
+    methods: {
+        
+    },
 }
 </script>
 

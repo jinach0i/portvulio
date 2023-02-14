@@ -21,6 +21,7 @@
 </template>
 
 <script>
+
 export default {
     name: 'TheHeader',
     data() {
@@ -39,13 +40,11 @@ export default {
 #header{width: 100%; height: 60px; line-height: 60px; position: fixed; top: 0; left: 0; right: 0;}
 #header .inner{min-width: 1130px; height: 60px; line-height: 60px; padding: 0 30px; margin: 0 auto; display: flex; justify-content: space-between; align-content: center;}
 #header .inner h1{width: 20%;}
-#header .inner h1 a{}
 #header .inner h1 a img{max-height: 60px; padding: 2%;}
 #header .inner #nav{width: 100%; padding: 0 8%; transition: all .4s; }
 #header .inner #nav ul{display: flex;}
 #header .inner #nav ul li{width: 25%; text-align: center;}
 #header .inner #nav ul li:hover a{color: #95defb; transition: all .8s;}
-#header .inner #nav ul li a{}
 #header .inner .menu-btn{transform: translateX(-20%); position: relative; top: 0; right: 3%; width: 40px; height: 100%;}
 /* @keyframes changeBackColor {
     from{background-color: gold;}
